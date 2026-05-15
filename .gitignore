@@ -1,9 +1,23 @@
+# Terraform
 .terraform/
 *.tfstate
-.tfstate.
+*.tfstate.*
 crash.log
 terraform.tfvars
 *.auto.tfvars
 .terraform.lock.hcl
+plan.out
+*.tfplan
 
+# Sensitive files
+*.pem
+*.key
 .env
+
+# Editors
+.vscode/
+*.save
+*.swp
+
+# OS
+.DS_Store
